@@ -20,7 +20,7 @@ export default class App extends React.Component {
   }
 
   componentDidMount() {
-    this.getYouTubeVideos('react tutorials');
+    this.getYouTubeVideos('golden puppies');
   }
 
   handleVideoListEntryTitleClick(video) {
