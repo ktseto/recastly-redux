@@ -1,3 +1,5 @@
+import React from 'react';
+
 var Search = ({ handleVideoSearch }) => (
   <div className="search-bar form-inline">
     <input

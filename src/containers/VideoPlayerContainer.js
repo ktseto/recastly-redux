@@ -5,7 +5,7 @@ var mapStateToProps = (state) => ({
   video: state.currentVideo,
 });
 
-var mapDispatchToProps = () => {};
+var mapDispatchToProps = () => ({});
 
 var VideoPlayerContainer = connect(mapStateToProps, mapDispatchToProps)(VideoPlayer);
 
